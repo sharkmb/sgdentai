@@ -1,0 +1,326 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    background: linear-gradient(110deg, rgba(6, 6, 6, 0.74) -0.28%, rgba(23, 23, 23, 0.13) 50.35%, rgba(30, 29, 29, 0.00) 100%), url(img/91\ 1.png) no-repeat center center / cover;
+    height: 720px;
+}
+
+main {
+    background: #F4F4F4;
+}
+
+.container {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.logo-project {
+    margin-top: 48px;
+    width: 76px;
+    height: 53px;
+}
+
+.nav-list {
+    margin-top: 60px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+li {
+    color: #F4F4F4;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.50);
+    font-family: Benzin;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    width: 105px;
+}
+
+.head-social {
+    margin-top: 53px;
+    fill: #F4F4F4;
+    height: 40px;
+}
+
+.head-sg {
+    width: 160px;
+    height: 91.091px;
+    transform: rotate(-0.173deg);
+    color: #F4F4F4;
+    font-family: Benzin;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 91.188%; 
+    margin-top: 140px;
+    margin-bottom: 0px;
+}
+
+.head-denta {
+    width: 234.334px;
+    height: 91.417px;
+    transform: rotate(-0.173deg);
+    color: #F4F4F4;
+    font-family: Benzin;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100.688%; 
+    margin-top: 140px;
+    margin-bottom: 0px;
+}
+
+.head-text-h {
+    display: flex;
+    align-items: center;
+}
+
+.head-main-text {
+    width: 493px;
+    height: 90px;
+    color: #FFF;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.60);
+    font-family: Amiko;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 113.9%; 
+    margin-top: 27px;
+    margin-bottom: 0px;
+}
+
+.record-button{
+    height: 34px;
+    color: #F4F4F4;
+    text-align: center;
+    font-family: Benzin;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 91.188%;
+    width: 221px;
+    height: 57px;
+    background-color: #FD3131;
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    border-style: none;
+}
+
+.head-button {
+    margin-top: 44px;
+}
+
+.main-text-h1 > h1 {
+    width: 800px;
+    height: 125px;
+    color: #232121;
+    font-family: Benzin;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 108.688%;
+    letter-spacing: 1.95px;
+}
+
+.main-text-1 {
+    margin-top: 0px;
+    padding-top: 50px;
+}
+
+.main-text-2 {
+    margin-left: 320px;
+}
+
+.card-1 {
+    display: flex;
+    padding-top: 80px;
+    gap: 23px;
+    justify-content: center;
+
+}
+
+.card-1-img {
+    width: 540px;
+    height: 298px;
+    border-radius: 5px;
+}
+
+.card-1-h2 {
+    width: 540px;
+    height: 298px;
+    border-radius: 5px;
+    background: rgba(231, 231, 231, 0.20);
+    backdrop-filter: blur(7.5px);
+}
+
+.card-1-h2 > h2 {
+    width: 524px;
+    height: 94px;
+    flex-shrink: 0;
+    color: #232121;
+    font-family: Benzin;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.721%; 
+    margin-left: 21px;
+    margin-bottom: 0px;
+}
+
+.card-1-h2 > p {
+    margin-bottom: 0px;
+    margin-top: 52px;
+    margin-left: 21px;
+    width: 524px;
+    height: 126px;
+    flex-shrink: 0;
+    color: #171515;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.services-text-1 {
+    color: #232121;
+    font-family: Benzin;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 99.187%;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.veneers {
+    width: 250px;
+    height: 330px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.12) 0%, rgba(0, 0, 0, 0.47) 62.5%, rgba(0, 0, 0, 0.50) 100%), url(img/Rectangle\ 5.png), lightgray 50% / cover no-repeat; 
+}
+
+.all-card-1 {
+    width: 250px;
+    height: 330px;
+    border-radius: 5px;
+    background: #C72929;
+}
+
+.services-card-1 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-card-1 svg {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    width: 36px;
+    height: 38px;
+}
+
+.map-content { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.map-content > h3 {
+    margin-top: 0px;
+    width: 240px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #F8F4F4;
+    font-family: Benzin;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 93.5%;
+}
+
+.map-content > h4 {
+    width: 239px;
+    height: 52px;
+    flex-shrink: 0;
+    color: #F8F4F4;
+    font-family: Amiko;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 106.9%; 
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+.map-content > p {
+    color: #F8F4F4;
+    font-family: Benzin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 93.5%;
+    margin-top: 0px;
+}
+
+.about-company {
+    width: 607px;
+    height: 364px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: rgba(231, 231, 231, 0.20);
+    backdrop-filter: blur(7.5px);
+    margin-top: 215px;
+}
+
+.about-company > h2 {
+    color: #121010;
+    font-family: Benzin;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 107.687%; 
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+.about-company > p {
+    width: 574px;
+    height: 260px;
+    flex-shrink: 0;
+    color: #201D1D;
+    font-family: Amiko;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 126.4%; 
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.about {
+    display: flex;
+    gap: 29px;
+}
+
+.about-img {
+    margin-top: 215px;
+    margin-right: 0px;
+}

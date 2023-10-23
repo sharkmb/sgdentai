@@ -287,6 +287,7 @@ li {
     background: rgba(231, 231, 231, 0.20);
     backdrop-filter: blur(7.5px);
     margin-top: 215px;
+    z-index: 2;
 }
 
 .about-company > h2 {
@@ -323,4 +324,249 @@ li {
 .about-img {
     margin-top: 215px;
     margin-right: 0px;
+}
+
+.about-svg {
+    position: absolute;
+    margin-top: 107px;
+    margin-left: 73px;
+    z-index: 1;
+    width: 365px;
+    height: 343px;
+    flex-shrink: 0;
+}
+
+.text-reviews-h1 {
+    color: #232121;
+    font-family: Benzin;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 99.187%; 
+    margin-top: 140px;
+    margin-bottom: 0px;
+    margin-right: 60px;
+}
+
+.reviews-h1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reviews-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.reviews-svg {
+    display: flex;
+    align-items: center;
+}
+
+.reviews-card-1 {
+    fill: rgba(231, 231, 231, 0.20);
+    stroke-width: 2px;
+    stroke: #C72929;
+    backdrop-filter: blur(21px);
+    width: 290px;
+    height: 332px;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+.reviews-head {
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+
+.reviews-head-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 19px;
+}
+
+.reviews-head-h3 {
+    margin: 0px;
+    color: #161515;
+    font-family: Benzin;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 78.5%;
+    width: 139px;
+    margin-bottom: 10px;
+}
+
+.reviews-head-p {
+    width: 66px;
+    margin: 0px;
+    color: #1F1E1E;
+    font-family: Benzin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 78.5%; 
+}
+
+.reviews-main-text {
+    margin-left: 15px;
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.reviews-main-p {
+    color: #232121;
+    font-family: Amiko;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 99%; 
+    letter-spacing: 0.81px;
+    width: 260px;
+    height: 170px;
+    flex-shrink: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.about-svg-main {
+    z-index: 1;
+    position: absolute;
+    margin-left: 520px;
+    margin-top: 190px;
+    width: 365px;
+    height: 343px;
+    flex-shrink: 0;
+    fill: #F00;
+}
+
+.recording {
+    margin-top: 110px;
+    height: 510px;
+    background: linear-gradient(172deg, rgba(6, 6, 6, 0.60) 5.78%, rgba(15, 14, 14, 0.24) 40.06%, rgba(23, 23, 23, 0.37) 72.1%, rgba(30, 29, 29, 0.00) 93.73%), url(img/495\ 1.png) no-repeat center center / cover;
+    z-index: 100;
+}
+
+.recording-text {
+    display: flex;
+    justify-content: center;
+}
+
+.recording-h1 {
+    width: 874px;
+    color: #F4F4F4;
+    text-align: center;
+    font-family: Benzin;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 90.687%; 
+    margin-top: 127px;
+}
+
+.recording-contact {
+    display: flex;
+    justify-content: center;
+    gap: 57px;
+    margin-top: 40px;
+    margin-bottom: 54px;
+}
+
+#name {
+    border-radius: 10px;
+    border: 2px solid #FD3131;
+    width: 285px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Benzin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 78.5%; 
+    background: none;
+    padding-left: 12px;
+}
+
+#phone {
+    border-radius: 10px;
+    border: 2px solid #FD3131;
+    width: 285px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Benzin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 78.5%; 
+    background: none;
+    padding-left: 12px;
+}
+
+#record {
+    width: 174px;
+    height: 50px;
+    flex-shrink: 0;
+    border-style: none;
+    border-radius: 10px;
+    background: #FD3131;
+    color: #FFF;
+    font-family: Benzin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 78.5%; 
+}
+
+.recording-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recording-p {
+    width: 858px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.70);
+    font-family: Amiko;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 91.188%; 
+    margin: 0px;
+}
+
+.question {
+    margin-top: 180px;
+}
+
+.question-text-h1 {
+    width: 1021px;
+    color: #232121;
+    font-family: Benzin;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 99.187%; 
+    margin-bottom: 50px;
+    margin-top: 0px;
+    z-index: 2000;
+}
+
+.question-svg {
+    position: absolute;
+    z-index: 1;
+    width: 536px;
+    height: 536px;
+    fill: #F00;
+    flex-shrink: 0;
+    margin-left: 655px;
+    margin-top: 4000px;
 }

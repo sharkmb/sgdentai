@@ -447,7 +447,7 @@ li {
     margin-top: 110px;
     height: 510px;
     background: linear-gradient(172deg, rgba(6, 6, 6, 0.60) 5.78%, rgba(15, 14, 14, 0.24) 40.06%, rgba(23, 23, 23, 0.37) 72.1%, rgba(30, 29, 29, 0.00) 93.73%), url(img/495\ 1.png) no-repeat center center / cover;
-    z-index: 100;
+    z-index: 2;
 }
 
 .recording-text {
@@ -543,30 +543,116 @@ li {
     margin: 0px;
 }
 
-.question {
-    margin-top: 180px;
+.location {
+    height: 589px;
+    background: url(img/image\ 8.png), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.question-text-h1 {
-    width: 1021px;
+.location-contact {
+    width: 540px;
+    height: 343px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #F00;
+    background: rgba(231, 231, 231, 0.10);
+    backdrop-filter: blur(10px);
+}
+
+.location-text {
+    margin-left: 30px;
+}
+
+.location-text-h2 {
     color: #232121;
     font-family: Benzin;
-    font-size: 80px;
+    font-size: 40px;
     font-style: normal;
-    font-weight: 600;
-    line-height: 99.187%; 
-    margin-bottom: 50px;
-    margin-top: 0px;
-    z-index: 2000;
+    font-weight: 700;
+    line-height: 78.5%; 
+    margin-top: 45px;
+    margin-bottom: 22px;
 }
 
-.question-svg {
-    position: absolute;
-    z-index: 1;
-    width: 536px;
-    height: 536px;
-    fill: #F00;
+.location-text-p {
+    width: 475px;
+    height: 73px;
     flex-shrink: 0;
-    margin-left: 655px;
-    margin-top: 4000px;
+    color: #232121;
+    font-family: Amiko;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 107.5%;
+    margin: 0px;
+}
+
+.idinahui > svg {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.dapoebat, .idinahui {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mnepohui {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.zhopchlen {
+    margin: 0px;
+    width: 387px;
+    height: 35px;
+    flex-shrink: 0;
+    color: #232121;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128.5%; 
+    letter-spacing: 0.9px;
+}
+
+.chlen {
+    margin: 0px;
+    color: #121111;
+    font-family: Benzin;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120.5%; 
+    letter-spacing: 0.99px;
+    width: 307px;
+    height: 26px;
+    flex-shrink: 0;
+}
+
+.pizda {
+    margin-bottom: 15px;
+}
+
+.fot {
+    height: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plevatmneuzhe {
+    flex-shrink: 0;
+    color: #121111;
+    font-family: Benzin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120.5%;
+    letter-spacing: 0.81px;
 }
